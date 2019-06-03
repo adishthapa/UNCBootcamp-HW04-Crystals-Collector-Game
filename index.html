@@ -15,10 +15,76 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
     <!-- Title -->
-    <title>Word Guess Game</title>
+    <title>Crystals Collector!</title>
 </head>
 
 <body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md text-center p-3 mt-5 rounded" id="title">
+                <h1>Crystals Collector!</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md rounded p-3 mt-5" id="directions">
+                <h4>Directions:</h4>
+                <p>
+                    You will be given a random number at the start of the game.
+                </p>
+                <p>
+                    There are four crystals to the side. By clicking on a crystal, you will add a specific amount of points to your total score.
+                </p>
+                <p>
+                    You will win the game by matching your total score to the random number and you will loose the game if your total score goes above the random number.
+                </p>
+                <p>
+                    The value of each crystals is hidden from you until you click on it.
+                </p>
+                <p>
+                    Each time when the game starts, the game will change the value of each of the crystals.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-6 text-center mt-5">
+                        <div class="rounded game h-100 p-3">
+                            <h4>Random Number:</h4>
+                            <p id="score"></p>
+                            <h4>Total Score:</h4>
+                            <p id="total"></p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-center mt-5">
+                        <div class="rounded game h-100 p-3">
+                            <h4>Wins:</h4>
+                            <p id="wins">0</p>
+                            <h4>Losses:</h4>
+                            <p id="losses">0</p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <br>
+                <div class="row">
+                    <div class="col-md-3">
+                        <input type="image" src="assets/images/red-crystal.jpeg" class="img-fluid w-100 h-100 foods img" id="button1">
+                    </div>
+                    <div class="col-md-3">
+                        <input type="image" src="assets/images/blue-crystal.jpg" class="img-fluid w-100 h-100 foods img" id="button2">
+                    </div>
+                    <div class="col-md-3">
+                        <input type="image" src="assets/images/green-crystal.png" class="img-fluid w-100 h-100 foods img" id="button3">
+                    </div>
+                    <div class="col-md-3">
+                        <input type="image" src="assets/images/purple-crystal.jpeg" class="img-fluid w-100 h-100 foods img" id="button4">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
 
     <!-- CDN for Custom JS -->
     <script src="assets/javascript/game.js"></script>

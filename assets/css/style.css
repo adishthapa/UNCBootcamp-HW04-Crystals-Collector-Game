@@ -1,0 +1,19 @@
+html {
+    height: 100%;
+}
+body {
+    background-image: url("../images/background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    background-color: black;
+}
+
+#title, #directions, .game {
+    background-color: white;
+}
+
+.img {
+    border:5px solid white;
+}
