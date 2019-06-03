@@ -30,10 +30,12 @@ function reset() {
 // This is the check function for the game to see if 
 function check(total) {
     if (total === score) {
+        alert("Congrats! You Win! Try again!")
         wins++;
         $("#wins").html(wins);
         reset();
     } else if (total > score) {
+        alert("Sorry, You Loose! Try again!")
         losses++;
         $("#losses").html(losses);
         reset();
