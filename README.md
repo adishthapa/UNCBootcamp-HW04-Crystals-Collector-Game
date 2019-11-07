@@ -1,6 +1,6 @@
 # Crystals Collector Game
 
-A strategic guessing game where you must match the given score by pressing different crystals with random, uknown values.
+A strategic guessing game where you must match the given score by pressing different crystals with random, unknown values.
 
 ## Game Instructions
 
